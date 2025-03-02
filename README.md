@@ -6,6 +6,29 @@ This project classifies animals using deep learning and a Flask web app. It leve
 - Web Interface: Upload images to classify animals via a Flask app.
 - Real-time Predictions: Get instant predictions on uploaded images.
 
+Navigation Setup 
+----------------
+- project/
+│
+├── app.py
+├── templates/
+│   └── index.html
+├── uploads/
+└── dataset/
+    ├── bear/
+    │   ├── image1.jpg
+    │   ├── image2.jpg
+    │   └── ...
+    ├── cat/
+    │   ├── image1.jpg
+    │   ├── image2.jpg
+    │   └── ...
+    ├── dog/
+    │   ├── image1.jpg
+    │   ├── image2.jpg
+    │   └── ...
+    └── ...
+  
 🚀 Setup
 - 1️⃣ Install Dependencies
 - pip install -r requirements.txt
